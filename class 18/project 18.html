@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>cursor example</h2>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="download.jpeg">
+                </div>
+                <div class="item">
+                    <img src="download (1).jpeg">
+                </div>
+                <div class="item">
+                    <img src="download (2).jpeg">
+                </div>
+            </div>
+            <!--left and right carousel-->
+            <a class="left carousel-control" href="" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <Span class="sr-only">previous</Span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <Span class="sr-only">previous</Span>
+            </a>
+        </div>
+    </div>
+    <P>data-target="#mycarousel": This tells the list item which carousel to control (the one with the ID mycarousel).<br>
+        data-slide-to="0": This tells the carousel to go to the first slide (index starts at 0).<br></P>
+    <P>data-target="#mycarousel": This specifies that this list item controls the carousel with the ID mycarousel.<br>
+       data-slide-to="1": This indicates that when this list item is clicked, the carousel will move to the second slide (index starts at 0, so 1 is the second slide).</P><br>
+       <P>data-target="#mycarousel": This indicates that this list item controls the carousel with the ID mycarousel.<br>
+        data-slide-to="2": This tells the carousel to move to the third slide when this list item is clicked (since indexing starts at 0, 2 refers to the third slide).</P><Br>
+    
+</body>
+</html>
+
